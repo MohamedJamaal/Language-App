@@ -5,57 +5,57 @@ import 'package:japanes_app/models/numbers.dart';
 class NumbersPage extends StatelessWidget {
   const NumbersPage({super.key});
 
-  final List<Number> numbers = const [
-    Number(
+  final List<ItemModel> numbers = const [
+    ItemModel(
       sound: 'audio/numbers/number_one_sound.mp3',
       image: 'assets/images/numbers/number_one.png',
       jpName: 'ichi',
       enName: 'one',
     ),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_two_sound.mp3',
         image: 'assets/images/numbers/number_two.png',
-        jpName: 'ichi',
+        jpName: 'Ni',
         enName: 'two'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_three_sound.mp3',
         image: 'assets/images/numbers/number_three.png',
-        jpName: 'ichi',
+        jpName: 'San',
         enName: 'three'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_four_sound.mp3',
         image: 'assets/images/numbers/number_four.png',
-        jpName: 'ichi',
+        jpName: 'Shi',
         enName: 'four'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_five_sound.mp3',
         image: 'assets/images/numbers/number_five.png',
-        jpName: 'ichi',
+        jpName: 'Go',
         enName: 'five'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_six_sound.mp3',
         image: 'assets/images/numbers/number_six.png',
-        jpName: 'ichi',
+        jpName: 'Roku',
         enName: 'six'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_seven_sound.mp3',
         image: 'assets/images/numbers/number_seven.png',
-        jpName: 'ichi',
+        jpName: 'Sebun',
         enName: 'seven'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_eight_sound.mp3',
         image: 'assets/images/numbers/number_eight.png',
-        jpName: 'ichi',
+        jpName: 'Hachi',
         enName: 'eight'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_nine_sound.mp3',
         image: 'assets/images/numbers/number_nine.png',
-        jpName: 'ichi',
+        jpName: 'Kyu',
         enName: 'nine'),
-    Number(
+    ItemModel(
         sound: 'audio/numbers/number_ten_sound.mp3',
         image: 'assets/images/numbers/number_ten.png',
-        jpName: 'ichi',
+        jpName: 'Ju',
         enName: 'ten'),
   ];
 

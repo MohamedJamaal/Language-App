@@ -5,58 +5,58 @@ import 'package:japanes_app/models/numbers.dart';
 class FamilyMembersPage extends StatelessWidget {
   const FamilyMembersPage({super.key});
 
-  final List<Number> numbers = const [
-    Number(
-      sound: 'audio/numbers/number_one_sound.mp3',
-      image: 'assets/images/numbers/number_one.png',
+  final List<ItemModel> numbers = const [
+    ItemModel(
+      sound: 'audio/family_members/father.wav',
+      image: 'assets/images/family_members/family_father.png',
       jpName: 'ichi',
-      enName: 'one',
+      enName: 'Father',
     ),
-    Number(
-        sound: 'audio/numbers/number_two_sound.mp3',
-        image: 'assets/images/numbers/number_two.png',
+    ItemModel(
+        sound: 'audio/family_members/mather.wav',
+        image: 'assets/images/family_members/family_mother.png',
         jpName: 'ichi',
-        enName: 'two'),
-    Number(
-        sound: 'audio/numbers/number_three_sound.mp3',
-        image: 'assets/images/numbers/number_three.png',
+        enName: 'Mother'),
+    ItemModel(
+        sound: 'audio/family_members/daughter.wav',
+        image: 'assets/images/family_members/family_daughter.png',
         jpName: 'ichi',
-        enName: 'three'),
-    Number(
-        sound: 'audio/numbers/number_four_sound.mp3',
-        image: 'assets/images/numbers/number_four.png',
+        enName: 'Dauther'),
+    ItemModel(
+        sound: 'audio/family_members/son.wav',
+        image: 'assets/images/family_members/family_son.png',
         jpName: 'ichi',
-        enName: 'four'),
-    Number(
-        sound: 'audio/numbers/number_five_sound.mp3',
-        image: 'assets/images/numbers/number_five.png',
+        enName: 'Son'),
+    ItemModel(
+        sound: 'audio/family/older brother.wav',
+        image: 'assets/images/family_members/family_older_brother.png',
         jpName: 'ichi',
-        enName: 'five'),
-    Number(
-        sound: 'audio/numbers/number_six_sound.mp3',
-        image: 'assets/images/numbers/number_six.png',
+        enName: 'Older Brother'),
+    ItemModel(
+        sound: 'audio/family/older sister.wav',
+        image: 'assets/images/family_members/family_older_sister.png',
         jpName: 'ichi',
-        enName: 'six'),
-    Number(
-        sound: 'audio/numbers/number_seven_sound.mp3',
-        image: 'assets/images/numbers/number_seven.png',
+        enName: 'Older Sister'),
+    ItemModel(
+        sound: 'audio/family/younger brohter.wav',
+        image: 'assets/images/family_members/family_younger_brother.png',
         jpName: 'ichi',
-        enName: 'seven'),
-    Number(
-        sound: 'audio/numbers/number_eight_sound.mp3',
-        image: 'assets/images/numbers/number_eight.png',
+        enName: 'Younger Brohter'),
+    ItemModel(
+        sound: 'audio/family/younger brohter.wav',
+        image: 'assets/images/family_members/family_younger_sister.png',
         jpName: 'ichi',
-        enName: 'eight'),
-    Number(
-        sound: 'audio/numbers/number_nine_sound.mp3',
-        image: 'assets/images/numbers/number_nine.png',
+        enName: 'Younger Sister'),
+    ItemModel(
+        sound: 'audio/family_members/grand father.wav',
+        image: 'assets/images/family_members/family_grandfather.png',
         jpName: 'ichi',
-        enName: 'nine'),
-    Number(
-        sound: 'audio/numbers/number_ten_sound.mp3',
-        image: 'assets/images/numbers/number_ten.png',
+        enName: 'Grand Father'),
+    ItemModel(
+        sound: 'audio/family/grand mother.wav',
+        image: 'assets/images/family_members/grand_mother.png',
         jpName: 'ichi',
-        enName: 'ten'),
+        enName: 'Grand Mother'),
   ];
 
   @override

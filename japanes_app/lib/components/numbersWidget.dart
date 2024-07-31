@@ -4,7 +4,7 @@ import 'package:japanes_app/models/numbers.dart';
 
 class NumbersWidget extends StatelessWidget {
   const NumbersWidget({super.key, required this.numbers, required this.color});
-  final Number numbers;
+  final ItemModel numbers;
   final Color color;
 
   @override
