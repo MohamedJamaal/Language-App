@@ -12,8 +12,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xffFEF6DB),
       appBar: AppBar(
-        title: const Text('Learn Japanese'),
         backgroundColor: const Color(0xff46322B),
+        title: const Text(
+          'Learn Japanese',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Column(
         children: [
@@ -44,20 +47,6 @@ class HomePage extends StatelessWidget {
                 ),
               );
             },
-          ),
-          Category(
-            text: ('Colors'),
-            color: const Color(0xff79359F),
-            // onTap: () {
-            //   Navigator.push(
-            //     context,
-            //     MaterialPageRoute(
-            //       builder: (context) {
-            //         return const PhrasesPage();
-            //       },
-            //     ),
-            //   );
-            // },
           ),
           Category(
             text: ('Phrases'),
