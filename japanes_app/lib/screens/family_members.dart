@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:japanes_app/components/NumbersWidget.dart';
-import 'package:japanes_app/models/numbers.dart';
+import 'package:japanes_app/components/list_item.dart';
+import 'package:japanes_app/models/ItemModel.dart';
 
 class FamilyMembersPage extends StatelessWidget {
   const FamilyMembersPage({super.key});
 
-  final List<ItemModel> numbers = const [
+  final List<ItemModel> listItems = const [
     ItemModel(
       sound: 'audio/family_members/father.wav',
       image: 'assets/images/family_members/family_father.png',
@@ -68,11 +68,11 @@ class FamilyMembersPage extends StatelessWidget {
       ),
       body: ListView.builder(
         // buildin loop
-        itemCount: numbers.length,
+        itemCount: listItems.length,
         itemBuilder: (context, index) {
-          return NumbersWidget(
+          return ListItem(
             color: const Color(0xff558B37),
-            numbers: numbers[index],
+            item: listItems[index],
           );
         },
       ),

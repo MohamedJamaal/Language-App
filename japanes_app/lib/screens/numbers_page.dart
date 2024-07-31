@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:japanes_app/components/NumbersWidget.dart';
-import 'package:japanes_app/models/numbers.dart';
+import 'package:japanes_app/components/list_item.dart';
+import 'package:japanes_app/models/ItemModel.dart';
 
 class NumbersPage extends StatelessWidget {
   const NumbersPage({super.key});
@@ -70,9 +70,9 @@ class NumbersPage extends StatelessWidget {
         // buildin loop
         itemCount: numbers.length,
         itemBuilder: (context, index) {
-          return NumbersWidget(
+          return ListItem(
             color: const Color(0xffEF9235),
-            numbers: numbers[index],
+            item: numbers[index],
           );
         },
       ),
